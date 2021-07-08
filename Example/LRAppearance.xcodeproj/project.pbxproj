@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		1BFA1D42C7BB2507A5D81F72 /* Pods-LRAppearance_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRAppearance_Example.debug.xcconfig"; path = "Target Support Files/Pods-LRAppearance_Example/Pods-LRAppearance_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		257799BA94FD17292FDDC2F5 /* Pods-LRAppearance_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRAppearance_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LRAppearance_Tests/Pods-LRAppearance_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		30FD4AC7FF1293232BEF6632 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		30FD4AC7FF1293232BEF6632 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3F1A243003975F9EE3C7EB2B /* Pods_LRAppearance_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LRAppearance_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* LRAppearance_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LRAppearance_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,12 +60,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6AFF3C602511558E5AE4AA9F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6AFF3C602511558E5AE4AA9F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A298AE883B236BB258E82EFC /* Pods_LRAppearance_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LRAppearance_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7B4FC8B1F1D1B9291EFB66 /* Pods-LRAppearance_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRAppearance_Tests.release.xcconfig"; path = "Target Support Files/Pods-LRAppearance_Tests/Pods-LRAppearance_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AEC0F1C7F92800D606A317AF /* LRAppearance.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LRAppearance.podspec; path = ../LRAppearance.podspec; sourceTree = "<group>"; };
+		AEC0F1C7F92800D606A317AF /* LRAppearance.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LRAppearance.podspec; path = ../LRAppearance.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DD1BEEBF745EE1AD269F51D4 /* Pods-LRAppearance_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRAppearance_Example.release.xcconfig"; path = "Target Support Files/Pods-LRAppearance_Example/Pods-LRAppearance_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				257799BA94FD17292FDDC2F5 /* Pods-LRAppearance_Tests.debug.xcconfig */,
 				AA7B4FC8B1F1D1B9291EFB66 /* Pods-LRAppearance_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

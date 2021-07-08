@@ -1,0 +1,16 @@
+PODS:
+  - LRAppearance (0.1.0)
+
+DEPENDENCIES:
+  - LRAppearance (from `../`)
+
+EXTERNAL SOURCES:
+  LRAppearance:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LRAppearance: bcbfb0cc1ecb30a0cdfed5ece7210fd6b3351283
+
+PODFILE CHECKSUM: 1ef045ffd0d0c7a6c360095725c3c0702baa089c
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,6 @@
+framework module LRAppearance {
+  umbrella header "LRAppearance-umbrella.h"
+
+  export *
+  module * { export * }
+}
