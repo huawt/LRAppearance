@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "LRAppearance.h"
 #import "LRSize.h"
 
 FOUNDATION_EXPORT double LRAppearanceVersionNumber;

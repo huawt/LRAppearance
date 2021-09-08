@@ -8,73 +8,83 @@
 
 /* Begin PBXBuildFile section */
 		0485D15A4085F92DD1C1BAD556F3A32E /* Pods-LRAppearance_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6FC437923023A2B7D5BF1AAE0FD71F /* Pods-LRAppearance_Example-dummy.m */; };
-		07CB78937E121AAE8525F25B16ABC66B /* LRSize.h in Headers */ = {isa = PBXBuildFile; fileRef = E96D0DEA304C6EE7D9A516D1F336696C /* LRSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		076ADAC0FE78E018AE13E17684238518 /* LRAppearance-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6F46CEE29E684B581251C7F6F68AA99 /* LRAppearance-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		232CF87C19008A5CEE227C34BBFE8DAC /* LRAppearance-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B172C76296C4BC6387353BB1E5F40388 /* LRAppearance-dummy.m */; };
+		25AF0E2CE7C26E59ABDDCD833A7743A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		27EF4B9E68068D7BE773C3D705E4781D /* Pods-LRAppearance_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDD591CE9B501393C5BB70C4CF4DAA9A /* Pods-LRAppearance_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A8F59182529A8373918A88F880EA7BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		5C61F7FDBA440EA2759A2653266BEBEB /* LRAppearance-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBE0C467560519939C5BF38EA12FFB52 /* LRAppearance-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8087E93EAB24A036E0E6F21CD4273D31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6A194521FA4A5D1202C04EEA20BCED53 /* LRSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 47A995354116006418476826E8B37A97 /* LRSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F9EA2842A7C7AD3DEFC1FD14DA75400 /* LRSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADD9BB98639AC53114F94ADB681B10B /* LRSize.m */; };
 		90D2685BDB5668655983DC4D6BB00815 /* Pods-LRAppearance_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29815644E9D606AA7904AEB219D1DE84 /* Pods-LRAppearance_Tests-dummy.m */; };
-		9F75299BE67FD503C09D065E0847771E /* LRAppearance-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE4EE48184EB0A009B77E4734993126 /* LRAppearance-dummy.m */; };
 		E26CB6124F418C4FA8B2B92D0B7B1EFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F27F62A6A0422D4AE4979194960570D4 /* LRSize.m in Sources */ = {isa = PBXBuildFile; fileRef = F69BD5C06942F4F357ADD47C22401998 /* LRSize.m */; };
 		FBFFA095CD8B704E9AF50A69CE809E35 /* Pods-LRAppearance_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C15C4DFECE98EB9F23AB404F737FBE0 /* Pods-LRAppearance_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF803C570A086CA6AD3C11370E6BD845 /* LRAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F6CC665212AD534441D5673D6435DE /* LRAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7A1C1CA8489BAC972F9EA23385DA34D9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1B0F09345373A0919270FFFEFB4FC83C;
-			remoteInfo = "Pods-LRAppearance_Example";
-		};
-		FF3472A68998579386D35CB2F5806C58 /* PBXContainerItemProxy */ = {
+		1FD8B0ECD4539B8BDBEC1879AE1AF694 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7E36FD8C00B48223730591135A467DB4;
 			remoteInfo = LRAppearance;
 		};
+		37FC9CADF06567A20F62AD94023D6229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B0F09345373A0919270FFFEFB4FC83C;
+			remoteInfo = "Pods-LRAppearance_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04FDD581EAE37520474A1AAFA43E9B0C /* LRAppearance-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LRAppearance-Info.plist"; sourceTree = "<group>"; };
 		0604A91A013ABD4432A1A2294CDFBCB7 /* Pods-LRAppearance_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LRAppearance_Tests.modulemap"; sourceTree = "<group>"; };
-		08D13D713F316827C6C96101D70400A6 /* LRAppearance.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LRAppearance.modulemap; sourceTree = "<group>"; };
+		06C6AA238F263E68784475FDBD3604E5 /* LRAppearance.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LRAppearance.modulemap; sourceTree = "<group>"; };
 		093770634CA46555FC39F717A24CD223 /* Pods-LRAppearance_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRAppearance_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0A935158E87F109FA4516EFAE2FA053A /* LRAppearance-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRAppearance-prefix.pch"; sourceTree = "<group>"; };
 		0B81E46BFACD64170D8BDFBB0D9C45CE /* Pods_LRAppearance_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LRAppearance_Tests.framework; path = "Pods-LRAppearance_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13AFB534E23C71F46963522957047979 /* LRAppearance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRAppearance.debug.xcconfig; sourceTree = "<group>"; };
 		1C79C9E07885B652A571A27A0BAA6775 /* Pods-LRAppearance_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LRAppearance_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1E60108DD63D4CE9FBBCAD755D63DEE5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		29815644E9D606AA7904AEB219D1DE84 /* Pods-LRAppearance_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LRAppearance_Tests-dummy.m"; sourceTree = "<group>"; };
-		3875675AE7794AEA172B224DE56210DC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3E3F39BE7175E972BA81397E64AFD8D7 /* Pods_LRAppearance_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LRAppearance_Example.framework; path = "Pods-LRAppearance_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		451962B22A28DD5FDFD42D620A18832C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		47A995354116006418476826E8B37A97 /* LRSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LRSize.h; path = LRAppearance/Classes/LRSize.h; sourceTree = "<group>"; };
 		4879ED8F400386BEF85D8A4FE613482D /* Pods-LRAppearance_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRAppearance_Tests-Info.plist"; sourceTree = "<group>"; };
-		5AA4EC72B5D9079987AA67A966991E80 /* LRAppearance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRAppearance.release.xcconfig; sourceTree = "<group>"; };
-		5D8A642429C984FCD175E7E15E762665 /* LRAppearance-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LRAppearance-Info.plist"; sourceTree = "<group>"; };
+		4ADD9BB98639AC53114F94ADB681B10B /* LRSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LRSize.m; path = LRAppearance/Classes/LRSize.m; sourceTree = "<group>"; };
 		5FDCD2B0ECB6D8DBFB8B3AD4D900E10B /* Pods-LRAppearance_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LRAppearance_Example.modulemap"; sourceTree = "<group>"; };
+		69F6CC665212AD534441D5673D6435DE /* LRAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LRAppearance.h; path = LRAppearance/Classes/LRAppearance.h; sourceTree = "<group>"; };
 		6C15C4DFECE98EB9F23AB404F737FBE0 /* Pods-LRAppearance_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LRAppearance_Tests-umbrella.h"; sourceTree = "<group>"; };
 		71354C080FE20A9CB9FB4695D53C0486 /* Pods-LRAppearance_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LRAppearance_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7E316E30794FEC0FA45D91932E22EE67 /* Pods-LRAppearance_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRAppearance_Example-Info.plist"; sourceTree = "<group>"; };
 		828822F986E68C6EA9B0F6C4B5EA9F35 /* Pods-LRAppearance_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LRAppearance_Example-frameworks.sh"; sourceTree = "<group>"; };
-		841CB71010CD2F40E5D0ECB2CA58EC1E /* LRAppearance-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRAppearance-prefix.pch"; sourceTree = "<group>"; };
 		88FD079A32E47123F29B74FDE6EB9574 /* LRAppearance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LRAppearance.framework; path = LRAppearance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FBBA128D3005A1BB5D0B3079490D0B4 /* LRAppearance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRAppearance.release.xcconfig; sourceTree = "<group>"; };
 		96B9C51F2C529729779E45E3520221BF /* Pods-LRAppearance_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRAppearance_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EE4EE48184EB0A009B77E4734993126 /* LRAppearance-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LRAppearance-dummy.m"; sourceTree = "<group>"; };
 		A032E968E1D43F8A96E998104D8599AB /* Pods-LRAppearance_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRAppearance_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B10482B0C04186DBD95055CD1D3B36F2 /* Pods-LRAppearance_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRAppearance_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B30325CC94D0A77839902CBEF1965D2D /* LRAppearance.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LRAppearance.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BBEF94F9C2EB55547523D05972CADFD7 /* LRAppearance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRAppearance.debug.xcconfig; sourceTree = "<group>"; };
+		B172C76296C4BC6387353BB1E5F40388 /* LRAppearance-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LRAppearance-dummy.m"; sourceTree = "<group>"; };
 		BE6FC437923023A2B7D5BF1AAE0FD71F /* Pods-LRAppearance_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LRAppearance_Example-dummy.m"; sourceTree = "<group>"; };
+		C550E6AD8C62FFC36C61FE50408C2564 /* LRAppearance.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LRAppearance.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CF72FBEAD9B0CA1A1C5F48DA9C95B180 /* Pods-LRAppearance_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRAppearance_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D6D191F4F14C484215C1FF7675A901A2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D6F46CEE29E684B581251C7F6F68AA99 /* LRAppearance-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRAppearance-umbrella.h"; sourceTree = "<group>"; };
 		D757C6BA47E2D9030201070C6A74D109 /* Pods-LRAppearance_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRAppearance_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E96D0DEA304C6EE7D9A516D1F336696C /* LRSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LRSize.h; path = LRAppearance/Classes/LRSize.h; sourceTree = "<group>"; };
-		EBE0C467560519939C5BF38EA12FFB52 /* LRAppearance-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRAppearance-umbrella.h"; sourceTree = "<group>"; };
 		EDD591CE9B501393C5BB70C4CF4DAA9A /* Pods-LRAppearance_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LRAppearance_Example-umbrella.h"; sourceTree = "<group>"; };
-		F69BD5C06942F4F357ADD47C22401998 /* LRSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LRSize.m; path = LRAppearance/Classes/LRSize.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		72442B420AE6B730D6DA06C144646B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25AF0E2CE7C26E59ABDDCD833A7743A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7C98A0CA9A39271FABA03F73A3FD86ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -91,14 +101,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FCF4D924611170CD01F98230EAF937D5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8087E93EAB24A036E0E6F21CD4273D31 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -112,16 +114,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		57046895508D649940A802583E38B0CB /* LRAppearance */ = {
+		5723004D3E738E116505CA305BAF472D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E96D0DEA304C6EE7D9A516D1F336696C /* LRSize.h */,
-				F69BD5C06942F4F357ADD47C22401998 /* LRSize.m */,
-				D03262E429979D69F36EF2C0FB58266E /* Pod */,
-				66B1B3C2D4D945C8F53D1EB406696DF4 /* Support Files */,
+				451962B22A28DD5FDFD42D620A18832C /* LICENSE */,
+				C550E6AD8C62FFC36C61FE50408C2564 /* LRAppearance.podspec */,
+				D6D191F4F14C484215C1FF7675A901A2 /* README.md */,
 			);
-			name = LRAppearance;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -148,21 +148,6 @@
 			path = "Target Support Files/Pods-LRAppearance_Tests";
 			sourceTree = "<group>";
 		};
-		66B1B3C2D4D945C8F53D1EB406696DF4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				08D13D713F316827C6C96101D70400A6 /* LRAppearance.modulemap */,
-				9EE4EE48184EB0A009B77E4734993126 /* LRAppearance-dummy.m */,
-				5D8A642429C984FCD175E7E15E762665 /* LRAppearance-Info.plist */,
-				841CB71010CD2F40E5D0ECB2CA58EC1E /* LRAppearance-prefix.pch */,
-				EBE0C467560519939C5BF38EA12FFB52 /* LRAppearance-umbrella.h */,
-				BBEF94F9C2EB55547523D05972CADFD7 /* LRAppearance.debug.xcconfig */,
-				5AA4EC72B5D9079987AA67A966991E80 /* LRAppearance.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LRAppearance";
-			sourceTree = "<group>";
-		};
 		67C7B231C61EA5A5C0D7AB56E6B30613 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +155,21 @@
 				59307516E8639DD34846CA6637BF5506 /* Pods-LRAppearance_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9173107C9324ED531FA681FD4A6320AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06C6AA238F263E68784475FDBD3604E5 /* LRAppearance.modulemap */,
+				B172C76296C4BC6387353BB1E5F40388 /* LRAppearance-dummy.m */,
+				04FDD581EAE37520474A1AAFA43E9B0C /* LRAppearance-Info.plist */,
+				0A935158E87F109FA4516EFAE2FA053A /* LRAppearance-prefix.pch */,
+				D6F46CEE29E684B581251C7F6F68AA99 /* LRAppearance-umbrella.h */,
+				13AFB534E23C71F46963522957047979 /* LRAppearance.debug.xcconfig */,
+				8FBBA128D3005A1BB5D0B3079490D0B4 /* LRAppearance.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LRAppearance";
 			sourceTree = "<group>";
 		};
 		AB6A358B2C207C14056208D0EF827FBD /* Pods-LRAppearance_Example */ = {
@@ -189,33 +189,15 @@
 			path = "Target Support Files/Pods-LRAppearance_Example";
 			sourceTree = "<group>";
 		};
-		B76C01519E6EC822BB48F9D0B935899D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				57046895508D649940A802583E38B0CB /* LRAppearance */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B76C01519E6EC822BB48F9D0B935899D /* Development Pods */,
+				E16202118E20C280C3D7CC381D6CE6BF /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				118EEFAC138DD2625D85E2BC15DA65D0 /* Products */,
 				67C7B231C61EA5A5C0D7AB56E6B30613 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D03262E429979D69F36EF2C0FB58266E /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				3875675AE7794AEA172B224DE56210DC /* LICENSE */,
-				B30325CC94D0A77839902CBEF1965D2D /* LRAppearance.podspec */,
-				1E60108DD63D4CE9FBBCAD755D63DEE5 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -224,6 +206,27 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E16202118E20C280C3D7CC381D6CE6BF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE7F7E61D928EBD709C274989239B12F /* LRAppearance */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EE7F7E61D928EBD709C274989239B12F /* LRAppearance */ = {
+			isa = PBXGroup;
+			children = (
+				69F6CC665212AD534441D5673D6435DE /* LRAppearance.h */,
+				47A995354116006418476826E8B37A97 /* LRSize.h */,
+				4ADD9BB98639AC53114F94ADB681B10B /* LRSize.m */,
+				5723004D3E738E116505CA305BAF472D /* Pod */,
+				9173107C9324ED531FA681FD4A6320AE /* Support Files */,
+			);
+			name = LRAppearance;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,12 +248,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7919FF328513097AABC4674E768C67F3 /* Headers */ = {
+		93CB99D93B2FCEE0CD09D78709F697DF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C61F7FDBA440EA2759A2653266BEBEB /* LRAppearance-umbrella.h in Headers */,
-				07CB78937E121AAE8525F25B16ABC66B /* LRSize.h in Headers */,
+				076ADAC0FE78E018AE13E17684238518 /* LRAppearance-umbrella.h in Headers */,
+				FF803C570A086CA6AD3C11370E6BD845 /* LRAppearance.h in Headers */,
+				6A194521FA4A5D1202C04EEA20BCED53 /* LRSize.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +273,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				119CD1831DEAD13749040F6B5E41F75A /* PBXTargetDependency */,
+				103C924A756BCAC9D55F83AB33F15A6C /* PBXTargetDependency */,
 			);
 			name = "Pods-LRAppearance_Example";
 			productName = "Pods-LRAppearance_Example";
@@ -278,12 +282,12 @@
 		};
 		7E36FD8C00B48223730591135A467DB4 /* LRAppearance */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9B8F1B8BADA558DA7E9E9E3FBC1D63F /* Build configuration list for PBXNativeTarget "LRAppearance" */;
+			buildConfigurationList = 7F9A7B0CC25FDD8FEA862DDA3D7092B6 /* Build configuration list for PBXNativeTarget "LRAppearance" */;
 			buildPhases = (
-				7919FF328513097AABC4674E768C67F3 /* Headers */,
-				C2F6AFFD0230F9FDC3F480096CC3862A /* Sources */,
-				FCF4D924611170CD01F98230EAF937D5 /* Frameworks */,
-				7A09F965D426B4C149B6D341389DD4D9 /* Resources */,
+				93CB99D93B2FCEE0CD09D78709F697DF /* Headers */,
+				DE0E9ACF3B0135BCEFC0F9E0B9E3532D /* Sources */,
+				72442B420AE6B730D6DA06C144646B04 /* Frameworks */,
+				16111BF9720640EBF1257BC2946991F4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -306,7 +310,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E5D5B456F32C24F768F885DDF5BA02EE /* PBXTargetDependency */,
+				12A1115C516DABA5C74D4A0CCF22F1CE /* PBXTargetDependency */,
 			);
 			name = "Pods-LRAppearance_Tests";
 			productName = "Pods-LRAppearance_Tests";
@@ -343,7 +347,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7A09F965D426B4C149B6D341389DD4D9 /* Resources */ = {
+		16111BF9720640EBF1257BC2946991F4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -383,29 +387,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2F6AFFD0230F9FDC3F480096CC3862A /* Sources */ = {
+		DE0E9ACF3B0135BCEFC0F9E0B9E3532D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F75299BE67FD503C09D065E0847771E /* LRAppearance-dummy.m in Sources */,
-				F27F62A6A0422D4AE4979194960570D4 /* LRSize.m in Sources */,
+				232CF87C19008A5CEE227C34BBFE8DAC /* LRAppearance-dummy.m in Sources */,
+				7F9EA2842A7C7AD3DEFC1FD14DA75400 /* LRSize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		119CD1831DEAD13749040F6B5E41F75A /* PBXTargetDependency */ = {
+		103C924A756BCAC9D55F83AB33F15A6C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LRAppearance;
 			target = 7E36FD8C00B48223730591135A467DB4 /* LRAppearance */;
-			targetProxy = FF3472A68998579386D35CB2F5806C58 /* PBXContainerItemProxy */;
+			targetProxy = 1FD8B0ECD4539B8BDBEC1879AE1AF694 /* PBXContainerItemProxy */;
 		};
-		E5D5B456F32C24F768F885DDF5BA02EE /* PBXTargetDependency */ = {
+		12A1115C516DABA5C74D4A0CCF22F1CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LRAppearance_Example";
 			target = 1B0F09345373A0919270FFFEFB4FC83C /* Pods-LRAppearance_Example */;
-			targetProxy = 7A1C1CA8489BAC972F9EA23385DA34D9 /* PBXContainerItemProxy */;
+			targetProxy = 37FC9CADF06567A20F62AD94023D6229 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -541,37 +545,6 @@
 			};
 			name = Release;
 		};
-		64A26BC6627217FF6D12DA1B0F5B40A3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AA4EC72B5D9079987AA67A966991E80 /* LRAppearance.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LRAppearance/LRAppearance-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LRAppearance/LRAppearance-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LRAppearance/LRAppearance.modulemap";
-				PRODUCT_MODULE_NAME = LRAppearance;
-				PRODUCT_NAME = LRAppearance;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		73581E6668C3B471E4A4D39F42D7A351 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B10482B0C04186DBD95055CD1D3B36F2 /* Pods-LRAppearance_Tests.debug.xcconfig */;
@@ -604,9 +577,9 @@
 			};
 			name = Debug;
 		};
-		75D94000A8F8E53788AF3C79B8D0D3F9 /* Debug */ = {
+		9DCC9FFDFA03C5FCAB9BD55AFB3F8795 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBEF94F9C2EB55547523D05972CADFD7 /* LRAppearance.debug.xcconfig */;
+			baseConfigurationReference = 8FBBA128D3005A1BB5D0B3079490D0B4 /* LRAppearance.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -629,10 +602,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -729,6 +703,36 @@
 			};
 			name = Release;
 		};
+		ECE55E1F8C7D46D347DC4004EC5A3843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13AFB534E23C71F46963522957047979 /* LRAppearance.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LRAppearance/LRAppearance-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LRAppearance/LRAppearance-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LRAppearance/LRAppearance.modulemap";
+				PRODUCT_MODULE_NAME = LRAppearance;
+				PRODUCT_NAME = LRAppearance;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -759,11 +763,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9B8F1B8BADA558DA7E9E9E3FBC1D63F /* Build configuration list for PBXNativeTarget "LRAppearance" */ = {
+		7F9A7B0CC25FDD8FEA862DDA3D7092B6 /* Build configuration list for PBXNativeTarget "LRAppearance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				75D94000A8F8E53788AF3C79B8D0D3F9 /* Debug */,
-				64A26BC6627217FF6D12DA1B0F5B40A3 /* Release */,
+				ECE55E1F8C7D46D347DC4004EC5A3843 /* Debug */,
+				9DCC9FFDFA03C5FCAB9BD55AFB3F8795 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
