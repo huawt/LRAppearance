@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'LRAppearance'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'LRAppearance. UISize'
   s.homepage         = 'https://github.com/huawt/LRAppearance'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

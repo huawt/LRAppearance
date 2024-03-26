@@ -1,9 +1,3 @@
-//
-//  LRSize.m
-//  LRAppearance
-//
-//  Created by WinTer on 2021/7/8.
-//
 
 #import "LRSize.h"
 #import <UIKit/UIKit.h>
@@ -24,11 +18,11 @@ BOOL kIsIPhoneX = NO;
 {
     kIsIPhoneX = [self judgeIsIPhoneX];
     if (kIsIPhoneX) {
-        kStatusBarHeight = 44.0f;
+        kStatusBarHeight = AppWindow().safeAreaInsets.top;
         kNavigationBarHeight = 44.0f;
-        kTabBarOffset = 34.0f;
-        kTabBarHeight = 49.0 + 34.0f;
-        kStatusBarOffset = 24.0f;
+        kTabBarOffset = AppWindow().safeAreaInsets.bottom;
+        kTabBarHeight = 49.0 + kTabBarOffset;
+        kStatusBarOffset = kStatusBarHeight - 20;
         kFinalTopHeight = (kStatusBarHeight + kNavigationBarHeight);
     }else{
         kStatusBarHeight = 20.0f;
@@ -42,18 +36,29 @@ BOOL kIsIPhoneX = NO;
     kUIHeight = [UIScreen mainScreen].bounds.size.height;
 }
 
+UIWindow *AppWindow(void) {
+    if (@available(iOS 16.0, *)) {
+        UIWindowScene *scene = [UIApplication sharedApplication].connectedScenes.anyObject;
+        UIWindow *window = scene.windows.firstObject;
+        if (window) {
+            return window;
+        }
+    } else if (@available(iOS 11.0, *)) {
+        UIWindow *window = [UIApplication sharedApplication].delegate.window;
+        if (window) {
+            return window;
+        }
+    }
+    return [UIApplication sharedApplication].keyWindow;
+}
+
 + (BOOL)judgeIsIPhoneX
 {
     if (@available(iOS 11.0, *)) {
-        UIWindow *window = [UIApplication sharedApplication].windows.firstObject;
-        if (window == nil) {
-            return NO;
-        }
-        if (window.safeAreaInsets.left > 0 || window.safeAreaInsets.bottom > 0) {
-            return YES;
-        }
+        return  AppWindow().safeAreaInsets.top > 0 || AppWindow().safeAreaInsets.bottom > 0;
+    } else {
+        return NO;
     }
-    return NO;
 }
 
 BOOL kIsiPhone(void){
@@ -71,20 +76,14 @@ BOOL kIsiPad(void){
 
 BOOL IsIPhoneX(void){
     if (@available(iOS 11.0, *)) {
-        UIWindow *window = [UIApplication sharedApplication].windows.firstObject;
-        if (window == nil) {
-            return NO;
-        }
-        if (window.safeAreaInsets.left > 0 || window.safeAreaInsets.bottom > 0) {
-            return YES;
-        }
+        return  AppWindow().safeAreaInsets.top > 0 || AppWindow().safeAreaInsets.bottom > 0;
     }
     return NO;
 }
 
 UIImage *ReSizeImage(UIImage *image, CGSize size)
 {
-    UIGraphicsBeginImageContextWithOptions(size, NO, 0.0);//防止模糊化
+    UIGraphicsBeginImageContextWithOptions(size, NO, 0.0);
     [image drawInRect:CGRectMake(0, 0, size.width, size.height)];
     UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();

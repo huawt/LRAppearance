@@ -1,6 +1,6 @@
 {
   "name": "LRAppearance",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "LRAppearance. UISize",
   "homepage": "https://github.com/huawt/LRAppearance",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/huawt/LRAppearance.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "9.0"

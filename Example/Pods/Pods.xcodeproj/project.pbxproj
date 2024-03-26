@@ -7,34 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0485D15A4085F92DD1C1BAD556F3A32E /* Pods-LRAppearance_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6FC437923023A2B7D5BF1AAE0FD71F /* Pods-LRAppearance_Example-dummy.m */; };
-		076ADAC0FE78E018AE13E17684238518 /* LRAppearance-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6F46CEE29E684B581251C7F6F68AA99 /* LRAppearance-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		232CF87C19008A5CEE227C34BBFE8DAC /* LRAppearance-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B172C76296C4BC6387353BB1E5F40388 /* LRAppearance-dummy.m */; };
-		25AF0E2CE7C26E59ABDDCD833A7743A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		27EF4B9E68068D7BE773C3D705E4781D /* Pods-LRAppearance_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDD591CE9B501393C5BB70C4CF4DAA9A /* Pods-LRAppearance_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A8F59182529A8373918A88F880EA7BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		6A194521FA4A5D1202C04EEA20BCED53 /* LRSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 47A995354116006418476826E8B37A97 /* LRSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7F9EA2842A7C7AD3DEFC1FD14DA75400 /* LRSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADD9BB98639AC53114F94ADB681B10B /* LRSize.m */; };
-		90D2685BDB5668655983DC4D6BB00815 /* Pods-LRAppearance_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29815644E9D606AA7904AEB219D1DE84 /* Pods-LRAppearance_Tests-dummy.m */; };
-		E26CB6124F418C4FA8B2B92D0B7B1EFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		FBFFA095CD8B704E9AF50A69CE809E35 /* Pods-LRAppearance_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C15C4DFECE98EB9F23AB404F737FBE0 /* Pods-LRAppearance_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF803C570A086CA6AD3C11370E6BD845 /* LRAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F6CC665212AD534441D5673D6435DE /* LRAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17097E8C0931E65C130B39CCB42FDCD3 /* Pods-LRAppearance_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C15C4DFECE98EB9F23AB404F737FBE0 /* Pods-LRAppearance_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20452C531232D173232A4AFBF024F2DC /* Pods-LRAppearance_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDD591CE9B501393C5BB70C4CF4DAA9A /* Pods-LRAppearance_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DD5E972529E8131CF6D7E3600CBE59C /* LRSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 47A995354116006418476826E8B37A97 /* LRSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54FB6FBC0995CECBBE5CB791CBBA5489 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		58F37490C31ACA7AFBD417A28F60B9CA /* LRAppearance-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6F46CEE29E684B581251C7F6F68AA99 /* LRAppearance-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DF6C41F558F24FB02EDD25AC86C3D15 /* Pods-LRAppearance_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6FC437923023A2B7D5BF1AAE0FD71F /* Pods-LRAppearance_Example-dummy.m */; };
+		72BA21B5CCCE97D88600ED1FF682B21E /* LRAppearance-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B172C76296C4BC6387353BB1E5F40388 /* LRAppearance-dummy.m */; };
+		76BB29923AE3BE9A5354200B16935699 /* LRAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F6CC665212AD534441D5673D6435DE /* LRAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A938840C949C6D38584479AF53C24377 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CCCB3256282487AF0D5B427F6326E63A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D06084E56F20B75A5752F91C35C40D90 /* LRSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADD9BB98639AC53114F94ADB681B10B /* LRSize.m */; };
+		FE869CB4A2556D2E1ED90C7A0AE268F4 /* Pods-LRAppearance_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29815644E9D606AA7904AEB219D1DE84 /* Pods-LRAppearance_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1FD8B0ECD4539B8BDBEC1879AE1AF694 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7E36FD8C00B48223730591135A467DB4;
-			remoteInfo = LRAppearance;
-		};
-		37FC9CADF06567A20F62AD94023D6229 /* PBXContainerItemProxy */ = {
+		4864B73996629E2F73010C7AA13F5E31 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1B0F09345373A0919270FFFEFB4FC83C;
 			remoteInfo = "Pods-LRAppearance_Example";
+		};
+		6AEBC1DC62B4BCEDD3026641E9D44798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E36FD8C00B48223730591135A467DB4;
+			remoteInfo = LRAppearance;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -44,11 +44,11 @@
 		06C6AA238F263E68784475FDBD3604E5 /* LRAppearance.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LRAppearance.modulemap; sourceTree = "<group>"; };
 		093770634CA46555FC39F717A24CD223 /* Pods-LRAppearance_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRAppearance_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0A935158E87F109FA4516EFAE2FA053A /* LRAppearance-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRAppearance-prefix.pch"; sourceTree = "<group>"; };
-		0B81E46BFACD64170D8BDFBB0D9C45CE /* Pods_LRAppearance_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LRAppearance_Tests.framework; path = "Pods-LRAppearance_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B81E46BFACD64170D8BDFBB0D9C45CE /* Pods-LRAppearance_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LRAppearance_Tests"; path = Pods_LRAppearance_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13AFB534E23C71F46963522957047979 /* LRAppearance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRAppearance.debug.xcconfig; sourceTree = "<group>"; };
 		1C79C9E07885B652A571A27A0BAA6775 /* Pods-LRAppearance_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LRAppearance_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		29815644E9D606AA7904AEB219D1DE84 /* Pods-LRAppearance_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LRAppearance_Tests-dummy.m"; sourceTree = "<group>"; };
-		3E3F39BE7175E972BA81397E64AFD8D7 /* Pods_LRAppearance_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LRAppearance_Example.framework; path = "Pods-LRAppearance_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E3F39BE7175E972BA81397E64AFD8D7 /* Pods-LRAppearance_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LRAppearance_Example"; path = Pods_LRAppearance_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		451962B22A28DD5FDFD42D620A18832C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		47A995354116006418476826E8B37A97 /* LRSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LRSize.h; path = LRAppearance/Classes/LRSize.h; sourceTree = "<group>"; };
 		4879ED8F400386BEF85D8A4FE613482D /* Pods-LRAppearance_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRAppearance_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7E316E30794FEC0FA45D91932E22EE67 /* Pods-LRAppearance_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRAppearance_Example-Info.plist"; sourceTree = "<group>"; };
 		828822F986E68C6EA9B0F6C4B5EA9F35 /* Pods-LRAppearance_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LRAppearance_Example-frameworks.sh"; sourceTree = "<group>"; };
-		88FD079A32E47123F29B74FDE6EB9574 /* LRAppearance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LRAppearance.framework; path = LRAppearance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88FD079A32E47123F29B74FDE6EB9574 /* LRAppearance */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LRAppearance; path = LRAppearance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FBBA128D3005A1BB5D0B3079490D0B4 /* LRAppearance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRAppearance.release.xcconfig; sourceTree = "<group>"; };
 		96B9C51F2C529729779E45E3520221BF /* Pods-LRAppearance_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRAppearance_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -77,43 +77,33 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		72442B420AE6B730D6DA06C144646B04 /* Frameworks */ = {
+		10000EC9245F562DA3C1383396628A60 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25AF0E2CE7C26E59ABDDCD833A7743A5 /* Foundation.framework in Frameworks */,
+				54FB6FBC0995CECBBE5CB791CBBA5489 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C98A0CA9A39271FABA03F73A3FD86ED /* Frameworks */ = {
+		240918EB0D28E5701C826904773553AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A8F59182529A8373918A88F880EA7BD /* Foundation.framework in Frameworks */,
+				A938840C949C6D38584479AF53C24377 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CAC48DFFD9A50F75F9A49687C6907D47 /* Frameworks */ = {
+		FCCF8B44E6B0A2B17613B7B933C3C342 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E26CB6124F418C4FA8B2B92D0B7B1EFE /* Foundation.framework in Frameworks */,
+				CCCB3256282487AF0D5B427F6326E63A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		118EEFAC138DD2625D85E2BC15DA65D0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				88FD079A32E47123F29B74FDE6EB9574 /* LRAppearance.framework */,
-				3E3F39BE7175E972BA81397E64AFD8D7 /* Pods_LRAppearance_Example.framework */,
-				0B81E46BFACD64170D8BDFBB0D9C45CE /* Pods_LRAppearance_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		5723004D3E738E116505CA305BAF472D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +136,16 @@
 			);
 			name = "Pods-LRAppearance_Tests";
 			path = "Target Support Files/Pods-LRAppearance_Tests";
+			sourceTree = "<group>";
+		};
+		5A1FC448CD84A6EF31552533B9031294 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88FD079A32E47123F29B74FDE6EB9574 /* LRAppearance */,
+				3E3F39BE7175E972BA81397E64AFD8D7 /* Pods-LRAppearance_Example */,
+				0B81E46BFACD64170D8BDFBB0D9C45CE /* Pods-LRAppearance_Tests */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		67C7B231C61EA5A5C0D7AB56E6B30613 /* Targets Support Files */ = {
@@ -195,7 +195,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				E16202118E20C280C3D7CC381D6CE6BF /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				118EEFAC138DD2625D85E2BC15DA65D0 /* Products */,
+				5A1FC448CD84A6EF31552533B9031294 /* Products */,
 				67C7B231C61EA5A5C0D7AB56E6B30613 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -232,29 +232,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		43E246EDAB207A63616C42AFCCE2F26F /* Headers */ = {
+		0742DC2157947178ADCF47205AA6C22C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBFFA095CD8B704E9AF50A69CE809E35 /* Pods-LRAppearance_Tests-umbrella.h in Headers */,
+				20452C531232D173232A4AFBF024F2DC /* Pods-LRAppearance_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C91CDECE1EF7E6CD4D60F609ACAFB51 /* Headers */ = {
+		6C2A84BF43839FA2D2C61FEFB326957C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27EF4B9E68068D7BE773C3D705E4781D /* Pods-LRAppearance_Example-umbrella.h in Headers */,
+				17097E8C0931E65C130B39CCB42FDCD3 /* Pods-LRAppearance_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93CB99D93B2FCEE0CD09D78709F697DF /* Headers */ = {
+		D2241C7212B452111B8D69E26E0D3FCB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				076ADAC0FE78E018AE13E17684238518 /* LRAppearance-umbrella.h in Headers */,
-				FF803C570A086CA6AD3C11370E6BD845 /* LRAppearance.h in Headers */,
-				6A194521FA4A5D1202C04EEA20BCED53 /* LRSize.h in Headers */,
+				76BB29923AE3BE9A5354200B16935699 /* LRAppearance.h in Headers */,
+				58F37490C31ACA7AFBD417A28F60B9CA /* LRAppearance-umbrella.h in Headers */,
+				4DD5E972529E8131CF6D7E3600CBE59C /* LRSize.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,31 +263,31 @@
 /* Begin PBXNativeTarget section */
 		1B0F09345373A0919270FFFEFB4FC83C /* Pods-LRAppearance_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20036711D299F8A29345E4AD607218D4 /* Build configuration list for PBXNativeTarget "Pods-LRAppearance_Example" */;
+			buildConfigurationList = 4671D121E82882698C64D8C71F02BDDF /* Build configuration list for PBXNativeTarget "Pods-LRAppearance_Example" */;
 			buildPhases = (
-				5C91CDECE1EF7E6CD4D60F609ACAFB51 /* Headers */,
-				735039C0E9FE769876619646D8DC2C48 /* Sources */,
-				CAC48DFFD9A50F75F9A49687C6907D47 /* Frameworks */,
-				E3B2A5A41A49FA46D6F33601B461E79E /* Resources */,
+				0742DC2157947178ADCF47205AA6C22C /* Headers */,
+				CE2FE27CFD1A462E465695C1084F0B3E /* Sources */,
+				240918EB0D28E5701C826904773553AA /* Frameworks */,
+				43A8D5873B3F5102BB66385495ED7543 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				103C924A756BCAC9D55F83AB33F15A6C /* PBXTargetDependency */,
+				E089080218EDE4D03F7A743D3B61478D /* PBXTargetDependency */,
 			);
 			name = "Pods-LRAppearance_Example";
-			productName = "Pods-LRAppearance_Example";
-			productReference = 3E3F39BE7175E972BA81397E64AFD8D7 /* Pods_LRAppearance_Example.framework */;
+			productName = Pods_LRAppearance_Example;
+			productReference = 3E3F39BE7175E972BA81397E64AFD8D7 /* Pods-LRAppearance_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		7E36FD8C00B48223730591135A467DB4 /* LRAppearance */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F9A7B0CC25FDD8FEA862DDA3D7092B6 /* Build configuration list for PBXNativeTarget "LRAppearance" */;
+			buildConfigurationList = 77523C360A7C636D0750B9BA757A89F2 /* Build configuration list for PBXNativeTarget "LRAppearance" */;
 			buildPhases = (
-				93CB99D93B2FCEE0CD09D78709F697DF /* Headers */,
-				DE0E9ACF3B0135BCEFC0F9E0B9E3532D /* Sources */,
-				72442B420AE6B730D6DA06C144646B04 /* Frameworks */,
-				16111BF9720640EBF1257BC2946991F4 /* Resources */,
+				D2241C7212B452111B8D69E26E0D3FCB /* Headers */,
+				3A5C50DE1C175AF176010899B908DDB0 /* Sources */,
+				FCCF8B44E6B0A2B17613B7B933C3C342 /* Frameworks */,
+				63AA31CF6C9ACAD4460ABE9193C10AAB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -295,26 +295,26 @@
 			);
 			name = LRAppearance;
 			productName = LRAppearance;
-			productReference = 88FD079A32E47123F29B74FDE6EB9574 /* LRAppearance.framework */;
+			productReference = 88FD079A32E47123F29B74FDE6EB9574 /* LRAppearance */;
 			productType = "com.apple.product-type.framework";
 		};
 		B88B81EC9038F7FCFAF7DDB43B757D4D /* Pods-LRAppearance_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 085B3799524E5465790D0228ABC65DC4 /* Build configuration list for PBXNativeTarget "Pods-LRAppearance_Tests" */;
+			buildConfigurationList = 10A9BF8910B3088CE4A4D637CF095FAC /* Build configuration list for PBXNativeTarget "Pods-LRAppearance_Tests" */;
 			buildPhases = (
-				43E246EDAB207A63616C42AFCCE2F26F /* Headers */,
-				24A7AD82B5224396A1961DDEE9C04CC5 /* Sources */,
-				7C98A0CA9A39271FABA03F73A3FD86ED /* Frameworks */,
-				F2675C43D05E62305FCC20FE002C4480 /* Resources */,
+				6C2A84BF43839FA2D2C61FEFB326957C /* Headers */,
+				3C1E430A033E1F35F36539F2EC2B2D0A /* Sources */,
+				10000EC9245F562DA3C1383396628A60 /* Frameworks */,
+				73D3A659CD2DFFB7288D575C1B0E85FB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				12A1115C516DABA5C74D4A0CCF22F1CE /* PBXTargetDependency */,
+				FEF9A135BC816F0D3ED5AE82797391BF /* PBXTargetDependency */,
 			);
 			name = "Pods-LRAppearance_Tests";
-			productName = "Pods-LRAppearance_Tests";
-			productReference = 0B81E46BFACD64170D8BDFBB0D9C45CE /* Pods_LRAppearance_Tests.framework */;
+			productName = Pods_LRAppearance_Tests;
+			productReference = 0B81E46BFACD64170D8BDFBB0D9C45CE /* Pods-LRAppearance_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -323,19 +323,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 118EEFAC138DD2625D85E2BC15DA65D0 /* Products */;
+			productRefGroup = 5A1FC448CD84A6EF31552533B9031294 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -347,21 +347,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		16111BF9720640EBF1257BC2946991F4 /* Resources */ = {
+		43A8D5873B3F5102BB66385495ED7543 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3B2A5A41A49FA46D6F33601B461E79E /* Resources */ = {
+		63AA31CF6C9ACAD4460ABE9193C10AAB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2675C43D05E62305FCC20FE002C4480 /* Resources */ = {
+		73D3A659CD2DFFB7288D575C1B0E85FB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,50 +371,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		24A7AD82B5224396A1961DDEE9C04CC5 /* Sources */ = {
+		3A5C50DE1C175AF176010899B908DDB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90D2685BDB5668655983DC4D6BB00815 /* Pods-LRAppearance_Tests-dummy.m in Sources */,
+				72BA21B5CCCE97D88600ED1FF682B21E /* LRAppearance-dummy.m in Sources */,
+				D06084E56F20B75A5752F91C35C40D90 /* LRSize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		735039C0E9FE769876619646D8DC2C48 /* Sources */ = {
+		3C1E430A033E1F35F36539F2EC2B2D0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0485D15A4085F92DD1C1BAD556F3A32E /* Pods-LRAppearance_Example-dummy.m in Sources */,
+				FE869CB4A2556D2E1ED90C7A0AE268F4 /* Pods-LRAppearance_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE0E9ACF3B0135BCEFC0F9E0B9E3532D /* Sources */ = {
+		CE2FE27CFD1A462E465695C1084F0B3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				232CF87C19008A5CEE227C34BBFE8DAC /* LRAppearance-dummy.m in Sources */,
-				7F9EA2842A7C7AD3DEFC1FD14DA75400 /* LRSize.m in Sources */,
+				5DF6C41F558F24FB02EDD25AC86C3D15 /* Pods-LRAppearance_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		103C924A756BCAC9D55F83AB33F15A6C /* PBXTargetDependency */ = {
+		E089080218EDE4D03F7A743D3B61478D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LRAppearance;
 			target = 7E36FD8C00B48223730591135A467DB4 /* LRAppearance */;
-			targetProxy = 1FD8B0ECD4539B8BDBEC1879AE1AF694 /* PBXContainerItemProxy */;
+			targetProxy = 6AEBC1DC62B4BCEDD3026641E9D44798 /* PBXContainerItemProxy */;
 		};
-		12A1115C516DABA5C74D4A0CCF22F1CE /* PBXTargetDependency */ = {
+		FEF9A135BC816F0D3ED5AE82797391BF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LRAppearance_Example";
 			target = 1B0F09345373A0919270FFFEFB4FC83C /* Pods-LRAppearance_Example */;
-			targetProxy = 37FC9CADF06567A20F62AD94023D6229 /* PBXContainerItemProxy */;
+			targetProxy = 4864B73996629E2F73010C7AA13F5E31 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		21B05EA792D1350D812D9D0D12E5D2F7 /* Debug */ = {
+		0716EB1F61C35EF3A22ED37F9F0F62DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A032E968E1D43F8A96E998104D8599AB /* Pods-LRAppearance_Example.debug.xcconfig */;
 			buildSettings = {
@@ -445,6 +445,39 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		1C044B249A255CBCB4B0718373E0F7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96B9C51F2C529729779E45E3520221BF /* Pods-LRAppearance_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LRAppearance_Tests/Pods-LRAppearance_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LRAppearance_Tests/Pods-LRAppearance_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -512,9 +545,9 @@
 			};
 			name = Debug;
 		};
-		2ABBDB66AE04AE65E98C854B312BEFD7 /* Release */ = {
+		2A45D0D307D7DE375074531B730B4844 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96B9C51F2C529729779E45E3520221BF /* Pods-LRAppearance_Tests.release.xcconfig */;
+			baseConfigurationReference = 093770634CA46555FC39F717A24CD223 /* Pods-LRAppearance_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -525,12 +558,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LRAppearance_Tests/Pods-LRAppearance_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-LRAppearance_Example/Pods-LRAppearance_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LRAppearance_Tests/Pods-LRAppearance_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-LRAppearance_Example/Pods-LRAppearance_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -545,7 +578,7 @@
 			};
 			name = Release;
 		};
-		73581E6668C3B471E4A4D39F42D7A351 /* Debug */ = {
+		2AC78FDE3805B46D6ADBCDA6C05FC011 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B10482B0C04186DBD95055CD1D3B36F2 /* Pods-LRAppearance_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -577,7 +610,7 @@
 			};
 			name = Debug;
 		};
-		9DCC9FFDFA03C5FCAB9BD55AFB3F8795 /* Release */ = {
+		74D0F96D43ECE815310DB0AC17119CD9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8FBBA128D3005A1BB5D0B3079490D0B4 /* LRAppearance.release.xcconfig */;
 			buildSettings = {
@@ -670,40 +703,7 @@
 			};
 			name = Release;
 		};
-		E44F3EC961A5F46F080B66D14CA0F15B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 093770634CA46555FC39F717A24CD223 /* Pods-LRAppearance_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LRAppearance_Example/Pods-LRAppearance_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LRAppearance_Example/Pods-LRAppearance_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		ECE55E1F8C7D46D347DC4004EC5A3843 /* Debug */ = {
+		EEBBD12152E1493E0ABA57533E804272 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 13AFB534E23C71F46963522957047979 /* LRAppearance.debug.xcconfig */;
 			buildSettings = {
@@ -736,20 +736,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		085B3799524E5465790D0228ABC65DC4 /* Build configuration list for PBXNativeTarget "Pods-LRAppearance_Tests" */ = {
+		10A9BF8910B3088CE4A4D637CF095FAC /* Build configuration list for PBXNativeTarget "Pods-LRAppearance_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				73581E6668C3B471E4A4D39F42D7A351 /* Debug */,
-				2ABBDB66AE04AE65E98C854B312BEFD7 /* Release */,
+				2AC78FDE3805B46D6ADBCDA6C05FC011 /* Debug */,
+				1C044B249A255CBCB4B0718373E0F7AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		20036711D299F8A29345E4AD607218D4 /* Build configuration list for PBXNativeTarget "Pods-LRAppearance_Example" */ = {
+		4671D121E82882698C64D8C71F02BDDF /* Build configuration list for PBXNativeTarget "Pods-LRAppearance_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				21B05EA792D1350D812D9D0D12E5D2F7 /* Debug */,
-				E44F3EC961A5F46F080B66D14CA0F15B /* Release */,
+				0716EB1F61C35EF3A22ED37F9F0F62DB /* Debug */,
+				2A45D0D307D7DE375074531B730B4844 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -763,11 +763,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F9A7B0CC25FDD8FEA862DDA3D7092B6 /* Build configuration list for PBXNativeTarget "LRAppearance" */ = {
+		77523C360A7C636D0750B9BA757A89F2 /* Build configuration list for PBXNativeTarget "LRAppearance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ECE55E1F8C7D46D347DC4004EC5A3843 /* Debug */,
-				9DCC9FFDFA03C5FCAB9BD55AFB3F8795 /* Release */,
+				EEBBD12152E1493E0ABA57533E804272 /* Debug */,
+				74D0F96D43ECE815310DB0AC17119CD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

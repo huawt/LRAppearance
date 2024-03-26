@@ -1,5 +1,5 @@
 PODS:
-  - LRAppearance (0.1.1)
+  - LRAppearance (0.1.2)
 
 DEPENDENCIES:
   - LRAppearance (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LRAppearance: 0436fe86e934765e52488ee8d7ce1fe52a4589e6
+  LRAppearance: 8c0350bc3cfd255797725e737b98755a7af10678
 
 PODFILE CHECKSUM: 1ef045ffd0d0c7a6c360095725c3c0702baa089c
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.15.2
